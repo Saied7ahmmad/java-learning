@@ -1,15 +1,18 @@
-public class Factorial {
-    public static int factorial(int n) {
-        if (n == 0) {
-            return 1; 
-        } else {
-            return n * factorial(n - 1); 
-        }
-    }
+public class Main {
+public static void main (String[] args){
+    javaLearning S1 = new javaLearning();
+    javaLearning S2 = new javaLearning()
+    ;javaLearning S3 = new javaLearning();
+    S1.name = "Saied";
+    S1.Class = "Nine";
+    S1.birthday = 27;
+    S1.result = 4.5;
+    S1.showInfo();
+    
 
-    public static void main(String[] args) {
-        int num = 5;
-        int result = factorial(num);
-        System.out.println("Factorial of " + num + " is: " + result);
-    }
+
+
+
+
+}
 }
